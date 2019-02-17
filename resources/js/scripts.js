@@ -12,4 +12,16 @@ if ($('.nav-inner').attr('aria-expanded') == 'false') {
 }
 
 
+
+
 });
+
+
+function imageGallery () {
+    if ($('.image-gallery').length) {
+
+        $('.image-gallery a').simpleLightbox();
+    }
+}
+imageGallery();
+

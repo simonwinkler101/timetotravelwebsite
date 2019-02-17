@@ -60,6 +60,9 @@ video {
 img {
     max-width: 100%;
 }
+iframe {
+    max-width: 100%;
+}
 
 /*-------------------HEADINGS AND TYPE */
 
@@ -283,4 +286,24 @@ label {
 justify-content: space-between;
 }
 
+}
+
+/* image gallery */
+
+.image-gallery ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.image-gallery li {
+    float: left;
+    max-width: 250px;
+    margin: 10px
+}
+
+/*contact details*/
+address {
+    font-style: normal;
 }
