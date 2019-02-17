@@ -174,6 +174,10 @@ header .layout-wide {
     border-bottom: 1px solid var(--border-color);
 }
 
+.nav-inner {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 800px) {
     .nav-prompt {
         display: none;
@@ -185,9 +189,6 @@ header .layout-wide {
     .nav-inner ul {
         display: flex;
         justify-content: space-between;
-    }
-    .nav-inner {
-        margin-bottom: 0;
     }
     .nav-inner a {
         border-bottom: 2px solid transparent;
@@ -245,3 +246,31 @@ label {
 }
 
 /*-------------------MODULES */
+/* hero module */
+
+.hero-module img {
+    width: 100%;
+
+}
+@media screen and (min-width: 800px) {
+
+    .hero-module {
+        position: relative;
+    }
+
+    .hero-content {
+        position: absolute;
+        bottom: 0;
+        
+        height: 100%;
+        width:100%;
+
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+.heading-main {
+    color: white;
+    text-shadow: 0px 1px 10px var(--strong-text-color);
+}
+}
